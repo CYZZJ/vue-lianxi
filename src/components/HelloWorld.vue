@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-13 14:24:39
- * @LastEditTime: 2020-12-13 14:42:29
- * @LastEditors: your name
+ * @LastEditTime: 2020-12-13 14:54:20
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vue_housee:\vue\git-project\vue-lianxi\src\components\HelloWorld.vue
 -->
@@ -13,6 +13,7 @@
     <Button type="warning">Warning</Button>
     <Button type="error">Error</Button>
     <h1>{{ msg }}</h1>
+     <Button icon="ios-search">Search</Button>
     <p>价格：{{ price | currency }}</p>
     <p>带参数的过滤器。时间：{{ timer | formats("YYYY-MM-DD") }}</p>
     <table border="1" class="table" cellspacing="0">
